@@ -1,9 +1,9 @@
-le but de se projet est de suivre la température intérieure et extérieure d'une ruche au cours du temps 
+le but de ce projet est de suivre la température intérieure et extérieure d'une ruche au cours du temps 
 et de stocker ces valeurs sur une carte SD
 
 Nous utilisons 2 Capteurs de température numérique : sonde DS18B20
-il est necessaire d'ajouter une résistance de 22kohms en parallèle entre le fil rouge et jaune 
-les capteurs sont montés en bus (branché ensemble) , Arduino par adressage pourra les distinguer
+il est nécessaire d'ajouter une résistance de 22kohms en parallèle entre le fil rouge et jaune 
+les capteurs sont montés en bus (branchés ensemble), Arduino par adressage pourra les distinguer
 
 Cette sonde utilise la librairie DallasTemperature et onewire
 https://github.com/milesburton/Arduino-Temperature-Control-Library
@@ -13,7 +13,7 @@ La température est enregistrée en fonction de la date sur une carte SD
 SPI Micro SD Storage Board TF Card Mémoire Shield Module pour Arduino
 
 Horloge : RTC DS1307 AT24C32 
-Qui fait appel a la librairie RTClib
+Qui fait appel à la librairie RTClib
  https://github.com/adafruit/RTClib/archive/master.zip
  
  le tout est alimenté par un panneau solaire  10w Mono 12v panneau solaire module solaire
@@ -25,5 +25,5 @@ Qui fait appel a la librairie RTClib
  Cordon adaptateur automobile batterie vers allume cigare
  Chargeur 3 USB pour voiture  4400 mA 
  
- l'enregistrement sur la carte SD au format CSV permet de vérifier d'obtenir les courbe jointes mesure T ruche.ODS
+ l'enregistrement sur la carte SD au format CSV permet d'obtenir les courbes jointes mesure T ruche.ODS
  
