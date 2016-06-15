@@ -1,0 +1,26 @@
+le but de se projet et de suivre la température intérieure et extérieure d'une ruche au cours du temps 
+et de stocker ces valeurs sur une carte SD
+
+Capteur de température numérique : sonde DS18B20
+
+Cette sonde utilise la librairie DallasTemperature et onewire
+https://github.com/milesburton/Arduino-Temperature-Control-Library
+https://github.com/PaulStoffregen/OneWire/archive/master.zip
+
+
+La température est enregistrée en fonction de la date sur une carte SD
+SPI Micro SD Storage Board TF Card Mémoire Shield Module pour Arduino
+
+Horloge : RTC DS1307 AT24C32 
+Qui fait appel a la librairie RTClib
+ https://github.com/adafruit/RTClib/archive/master.zip
+ 
+ le tout est alimenté par un panneau solaire  10w Mono 12v panneau solaire module solaire
+ ce panneau charge une batterie seche 12V, 7Ah a l'aide Régulateur de charge solaire Phocos
+ qui lisse la tension de charge de la batterie 
+ 
+ pour alimenter Arduino , nous utilisons un convertisseur allume-cigare / 3 USB 
+ 3USB pour alimenter 3 arduino différents
+ Cordon adaptateur automobile Conrad batterie vers allume cigare
+ Chargeur USB pour voiture Ansmann 1000-0009 4400 mA 3
+ 
