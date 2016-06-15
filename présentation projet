@@ -1,5 +1,5 @@
-le but de ce projet est de suivre la température intérieure et extérieure d'une ruche au cours du temps 
-et de stocker ces valeurs sur une carte SD
+Le but de ce projet est de suivre la température intérieure et extérieure d'une ruche au cours du temps 
+et de stocker ces valeurs sur une carte SD. Et ensuite de voir si on peut relier ces variations à un futur essaimage.
 
 Nous utilisons 2 Capteurs de température numérique : sonde DS18B20
 il est nécessaire d'ajouter une résistance de 22kohms en parallèle entre le fil rouge et jaune 
