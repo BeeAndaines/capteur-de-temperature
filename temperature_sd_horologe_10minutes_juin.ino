@@ -52,7 +52,7 @@ RTC_DS1307 RTC;
  */
 #include <DallasTemperature.h>
  
-// Le fil des données (jaune?) est relié au pin 10 du Arduino
+// Le fil des données (jaune?) est relié au pin 2 du Arduino
 #define ONE_WIRE_BUS 2
  
 /** 
