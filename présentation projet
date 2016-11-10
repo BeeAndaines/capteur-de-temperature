@@ -3,7 +3,9 @@ et de stocker ces valeurs sur une carte SD. Et ensuite de voir si on peut relier
 
 Nous utilisons 2 Capteurs de température numérique : sonde DS18B20
 il est nécessaire d'ajouter une résistance de 22kohms en parallèle entre le fil rouge et jaune 
-les capteurs sont montés en bus (branchés ensemble), Arduino par adressage pourra les distinguer
+https://tushev.org/images/electronics/arduino/ds18x20/ds18b20_bb.png
+
+les capteurs sont montés en bus (branchés ensemble)sur D2, Arduino par adressage pourra les distinguer
 
 Cette sonde utilise la librairie DallasTemperature et onewire
 https://github.com/milesburton/Arduino-Temperature-Control-Library
